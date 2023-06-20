@@ -1,4 +1,4 @@
-* @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@ body {
 header {
   position: relative;
   height: 20vh;
-  border-bottom: 7px solid #eee;
+  
 }
 
 main {
@@ -55,8 +55,8 @@ h1 {
 }
 
 .number {
-  background: #eee;
-  color: #333;
+  
+  color: #ffffff;
   font-size: 2rem;
   width: 90%;
   padding: 2rem 0;
@@ -67,14 +67,16 @@ h1 {
 .between {
   font-size: 1rem;
   position: absolute;
-  top: 1rem;
+  top: 1.5rem;
   right: 1rem;
+  margin: 5rem auto;
 }
 
 .again {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  
 }
 
 .guess {
@@ -98,7 +100,7 @@ h1 {
   font-family: inherit;
   padding: 1rem 1rem;
   cursor: pointer;
-  margin: 3rem auto;
+  margin: 6rem auto;
 }
 
 .btn:hover {
@@ -112,5 +114,5 @@ h1 {
 
 .label-score {
   margin-bottom: 1.5rem;
-} */
+} 
 
